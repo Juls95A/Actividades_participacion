@@ -1,0 +1,9 @@
+Estación: <nombre_estación>
+Latitud: <latitud>
+Longitud: <longitud>
+Fecha: <fecha>
+Hora: <hora>
+Temperatura: <temperatura>
+Humedad: <humedad>
+Presión: <presión>
+Viento: <velocidad_viento>,<dirección_viento>
