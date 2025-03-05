@@ -1,0 +1,171 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Juls95A/Actividades_participacion/blob/master/PilasyColas_\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Ejercicios Pilas y Colas para trabajar en clase"
+      ],
+      "metadata": {
+        "id": "vn5R3axr3vNZ"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Ejercicios clase pilas y colas.\n",
+        "\n",
+        "1. Se tiene un refugio de animales que opera estrictamente con el enfoque First-In , First-Out.\n",
+        "\n",
+        "Las personas deben adoptar el que lleve mas tiempo en el refugio (orden de llegada) ó ellos pueden seleccionar el tipo de animal de su preferencia, perro ó gato (igualmente recibiran el que lleve mas tiempo en el refugio)\n",
+        "\n",
+        "No esta permitido que las personas seleccionen un animal especifico.\n",
+        "\n",
+        "Cree la estructura para implementar estas operaciones necesarias."
+      ],
+      "metadata": {
+        "id": "WSiqOZup3kED"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "NpgXpQdZPIoS"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2. Usar una pila para invertir una cadena de caracteres.\n",
+        "Entrada: \"hola\" → Salida: \"aloh\""
+      ],
+      "metadata": {
+        "id": "CsBPQx4N6cOA"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "1sukjcRa6cei"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3. Intercambiar la primera mitad con la segunda mitad de una cola\n",
+        "\n",
+        "Entrada: [1, 2, 3, 4, 5, 6] → Salida: [4, 5, 6, 1, 2, 3]."
+      ],
+      "metadata": {
+        "id": "wszoFC9i7DfR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "9EfoDs95PFl9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4. Cree un algoritmo para verificar q una expresión matematica contenga el par de delimitadores matematicos en forma correcta, como\n",
+        "\n",
+        "() {} []\n",
+        "\n",
+        "Cualquiera que se utilice, debe tener su pareja, la que abre y cierra\n",
+        "\n",
+        "Correcto ()(()){([()])}\n",
+        "\n",
+        "correcto ((()(()){([()])}\n",
+        "\n",
+        "incorrecto ({[])}\n",
+        "\n",
+        "incorrecto (\n",
+        "\n",
+        "Entradas a validar\n",
+        "(((a+b)(4+(c+d)))){5(9[7+(i+j)])} --> Correcta\n",
+        "[{[(5+x)-(y+z)]] --> Incorrecta\n",
+        "[{[(5+x)-(y+z)]}] --> Correcta\n",
+        "[[(8*49] --> Incorrecta"
+      ],
+      "metadata": {
+        "id": "Wuii2wd94M4Q"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "-PYzwfVZ6W1O"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5. Dado un string s con letras minúsculas y mayúsculas, escriba una función que arregle el string sólo usando colas.\n",
+        "\n",
+        "Un string arreglado es un string que no tiene dos caracteres adyacentes que sean el mismo caracter pero mayúscula-minúscula (Aa, Bb, etc.) o minúscula-mayúscula (aA, bB, etc.)\n",
+        "\n",
+        "Retorne el string arreglado removiendo este par de caracteres en cada ocurrencia.\n",
+        "\n",
+        "Ejemplos\n",
+        "\n",
+        "Input: s = \"Hoola\" Output: \"Hoola\"\n",
+        "\n",
+        "Input: s = \"HoOla\" Output: \"Hla\"\n",
+        "\n",
+        "Input: s = \"HOola\" Output: \"Hla\"\n",
+        "\n",
+        "Input: s = \"xXOolA\" Output: \"lA\""
+      ],
+      "metadata": {
+        "id": "XgMa5NDl5XkD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "tEK5kGOY6aBJ"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
